@@ -9,8 +9,10 @@ This project aims to solve that problem by using Mediapipe's landmarks feature.
 I'm estimating the distance of each landmark of the hand from the center of the user's wrist.
 
 After normalizing that distance, I trained a simple model with sci-kit-learn in test.py.
+![AYAAN_SignLang](https://github.com/ayaanjamil/indian-sign-language/assets/39400870/ff1de169-6fa5-4559-9b6c-404ed1f2925c)
 
-@![]()You can train a similar model by:
+
+You can train a similar model by:
 
 1. running csv-write.py (make signs for each alphabet, essentially capturing your training data)
 
@@ -27,3 +29,4 @@ Future scope:
 As this can work only with alphabets now, I think it can be improved by incorporating Long Short-Term Memory ([LTSM]([Long short-term memory - Wikipedia](https://en.wikipedia.org/wiki/Long_short-term_memory))) to add gesture support so users can interpret full sentences.
 
 Other than that, I think by using Mediapipe's holistic model, instead of Hands model, multi-hand gestures, along with facial gestures can be incorporated.
+
