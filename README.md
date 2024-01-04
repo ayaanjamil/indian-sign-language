@@ -8,7 +8,7 @@ This project aims to solve that problem by using Mediapipe's landmarks feature.
 
 I'm estimating the distance of each landmark of the hand from the center of the user's wrist.
 
-After normalizing that distance, I trained a simple model with sci-kit-learn in test.py.
+After normalizing that distance, I trained a simple model with sci-kit-learn in train.py.
 ![AYAAN_SignLang](https://github.com/ayaanjamil/indian-sign-language/assets/39400870/ff1de169-6fa5-4559-9b6c-404ed1f2925c)
 (please excuse my camera death stare)
 
